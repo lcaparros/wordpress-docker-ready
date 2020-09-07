@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    wp:
+        image: lcaparros/wordpress-docker-ready
+        restart: always
+        container_name: wp
+        ports: 
+            - '8092:80'
+            - '2101:21'
