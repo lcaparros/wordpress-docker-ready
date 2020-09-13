@@ -11,3 +11,4 @@ read  -n 1 -p "Pulsa cualquier tecla cuando esté listo"
 wp plugin install really-simple-ssl --activate --allow-root
 wp rsssl activate_ssl --allow-root
 echo "Tu nuevo Wordpress ya está listo para funcionar con SSL"
+
